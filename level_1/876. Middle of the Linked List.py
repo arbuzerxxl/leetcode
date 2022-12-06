@@ -17,7 +17,7 @@ class Solution:
         while counter_head.next:
             counter += 1
             counter_head = counter_head.next
-        
+
         counter += 1
 
         middle = counter // 2 + 1  # if counter % 2 == 0 else counter // 2 + 1
